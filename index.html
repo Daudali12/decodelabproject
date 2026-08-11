@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ARCHORA - Designing Digital Experiences That Adapt. Premium responsive web development and UI/UX design studio.">
+    <meta name="theme-color" content="#F2F0EA">
+    <title>ARCHORA - Responsive Web Development & UI/UX Design</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="navbar__container">
+            <div class="navbar__logo">
+                <a href="#home" aria-label="ARCHORA Home">ARCHORA</a>
+            </div>
+            <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="navbar__menu" id="navMenu">
+                <a href="#home" class="navbar__link active">Home</a>
+                <a href="#about" class="navbar__link">About</a>
+                <a href="#services" class="navbar__link">Services</a>
+                <a href="#projects" class="navbar__link">Projects</a>
+                <a href="#contact" class="navbar__link">Contact</a>
+                <a href="#contact" class="navbar__cta">Start a Project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <span class="hero__badge">FULL STACK DEVELOPMENT • PROJECT 01</span>
+                    <h1 class="hero__title">Digital Experiences<br>That Just Work.</h1>
+                    <p class="hero__description">We believe great design isn't complicated. We build responsive, accessible experiences that feel natural on every device—because your users deserve better.</p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">See What We've Built</button>
+                        <button class="btn btn--secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Let's Chat</button>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <div class="device-mockup">
+                        <div class="device-mockup__desktop">
+                            <div class="browser-frame">
+                                <div class="browser-top">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="browser-content"></div>
+                            </div>
+                        </div>
+                        <div class="device-mockup__mobile">
+                            <div class="phone-frame">
+                                <div class="notch"></div>
+                                <div class="phone-content">
+                                    <div class="phone-screen">
+                                        <!-- Phone navbar -->
+                                        <div class="phone-navbar">
+                                            <span class="phone-logo">ARCHORA</span>
+                                        </div>
+                                        <!-- Phone hero content -->
+                                        <div class="phone-hero">
+                                            <h2>Digital<br>Experiences</h2>
+                                            <p>Built to adapt</p>
+                                        </div>
+                                        <!-- Phone section cards -->
+                                        <div class="phone-cards">
+                                            <div class="phone-card"></div>
+                                            <div class="phone-card"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="stats__container">
+                <p class="stats__label">Built with purpose</p>
+                <div class="stats__grid">
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <p class="stat-card__text">100% Responsive</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <p class="stat-card__text">Semantic HTML</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <p class="stat-card__text">Accessibility First</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__icon"></div>
+                        <p class="stat-card__text">Mobile First</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about__container">
+                <div class="about__visual">
+                    <div class="about__graphic">
+                        <div class="gradient-shape gradient-shape--1"></div>
+                        <div class="gradient-shape gradient-shape--2"></div>
+                    </div>
+                </div>
+                <div class="about__content">
+                    <h2 class="section-title">Where design<br>meets real humans.</h2>
+                    <p class="about__text">Responsive design isn't magic—it's empathy. We don't just resize content; we think about how real people interact with your product on every device. That's what sets great design apart.</p>
+                    <ul class="about__features">
+                        <li>Real user research, not assumptions</li>
+                        <li>Mobile-first thinking from day one</li>
+                        <li>Built for accessibility and SEO</li>
+                        <li>Modern CSS that actually scales</li>
+                        <li>Interactions that feel responsive & alive</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary">Start Together</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="services__container">
+                <h2 class="section-title section-title--center">What We Create</h2>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__number">01</div>
+                        <h3 class="service-card__title">Responsive Web Design</h3>
+                        <p class="service-card__description">Your website works perfectly on every screen. No more "it looks weird on mobile"—just beautiful experiences, everywhere.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__number">02</div>
+                        <h3 class="service-card__title">UI/UX Design</h3>
+                        <p class="service-card__description">We design for humans, not just aesthetics. Every button, every interaction is intentional and brings joy to your users.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__number">03</div>
+                        <h3 class="service-card__title">Frontend Engineering</h3>
+                        <p class="service-card__description">Code that doesn't just work—it's readable, maintainable, and built to last. Your future self will thank us.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__number">04</div>
+                        <h3 class="service-card__title">Interactive Magic</h3>
+                        <p class="service-card__description">Smooth animations, instant feedback, delightful interactions. We make your website feel alive and responsive.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="projects__container">
+                <h2 class="section-title section-title--center">Selected Work</h2>
+                <div class="projects__grid">
+                    <article class="project-card">
+                        <div class="project-card__preview">
+                            <div class="project-mock project-mock--ecommerce">
+                                <div class="ecommerce-mockup">
+                                    <div class="ecommerce-header"></div>
+                                    <div class="ecommerce-product"></div>
+                                    <div class="ecommerce-product"></div>
+                                    <div class="ecommerce-product"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">E-Commerce</span>
+                            <h3 class="project-card__title">Nova Commerce</h3>
+                            <p class="project-card__description">A responsive e-commerce experience designed mobile-first with intuitive navigation and seamless checkout.</p>
+                            <a href="#" class="project-card__link">View Project →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__preview">
+                            <div class="project-mock project-mock--dashboard">
+                                <div class="dashboard-mockup">
+                                    <div class="dashboard-header"></div>
+                                    <div class="dashboard-chart">
+                                        <div class="chart-bar" style="height: 60%;"></div>
+                                        <div class="chart-bar" style="height: 75%;"></div>
+                                        <div class="chart-bar" style="height: 45%;"></div>
+                                        <div class="chart-bar" style="height: 80%;"></div>
+                                    </div>
+                                    <div class="dashboard-footer"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Dashboard</span>
+                            <h3 class="project-card__title">Atlas Dashboard</h3>
+                            <p class="project-card__description">Modern analytics dashboard with responsive data visualization and real-time updates.</p>
+                            <a href="#" class="project-card__link">View Project →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__preview">
+                            <div class="project-mock project-mock--mobile">
+                                <div class="mobile-mockup">
+                                    <div class="mobile-header"></div>
+                                    <div class="mobile-content">
+                                        <div class="mobile-item"></div>
+                                        <div class="mobile-item"></div>
+                                        <div class="mobile-item"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Mobile App</span>
+                            <h3 class="project-card__title">Forma Mobile</h3>
+                            <p class="project-card__description">Mobile-first digital experience focused on performance and accessibility across all devices.</p>
+                            <a href="#" class="project-card__link">View Project →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Responsive Architecture Section -->
+        <section class="architecture">
+            <div class="architecture__container">
+                <h2 class="section-title section-title--center">One Interface.<br>Every Screen.</h2>
+                <p class="architecture__tagline">Designed mobile-first, expanded with intention.</p>
+                
+                <div class="devices-showcase">
+                    <div class="device-item">
+                        <div class="device-item__mockup mobile-device"></div>
+                        <p class="device-item__label">Mobile</p>
+                    </div>
+                    <div class="device-item">
+                        <div class="device-item__mockup tablet-device"></div>
+                        <p class="device-item__label">Tablet</p>
+                    </div>
+                    <div class="device-item">
+                        <div class="device-item__mockup desktop-device"></div>
+                        <p class="device-item__label">Desktop</p>
+                    </div>
+                </div>
+
+                <div class="architecture__principles">
+                    <div class="principle-item">
+                        <h4>Mobile-First Architecture</h4>
+                        <p>Design for the smallest screen first, then enhance for larger viewports.</p>
+                    </div>
+                    <div class="principle-item">
+                        <h4>CSS Grid & Flexbox</h4>
+                        <p>Powerful layout systems that adapt to any screen size seamlessly.</p>
+                    </div>
+                    <div class="principle-item">
+                        <h4>Responsive Breakpoints</h4>
+                        <p>Strategic breakpoints ensure optimal layouts at 768px, 1024px, and beyond.</p>
+                    </div>
+                    <div class="principle-item">
+                        <h4>Fluid Typography</h4>
+                        <p>Text scales proportionally using clamp() for perfect readability everywhere.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Principles Section -->
+        <section class="principles">
+            <div class="principles__container">
+                <h2 class="section-title section-title--center">Our Way of Working</h2>
+                <div class="principles__grid">
+                    <article class="principle-card">
+                        <div class="principle-card__number">01</div>
+                        <h3 class="principle-card__title">Keep It Simple</h3>
+                        <p class="principle-card__description">No unnecessary fluff. Every button, every line of code serves a purpose. Simple is powerful.</p>
+                    </article>
+                    <article class="principle-card">
+                        <div class="principle-card__number">02</div>
+                        <h3 class="principle-card__title">Works Everywhere</h3>
+                        <p class="principle-card__description">From an old phone to a brand new monitor. Your design doesn't make excuses—it just works.</p>
+                    </article>
+                    <article class="principle-card">
+                        <div class="principle-card__number">03</div>
+                        <h3 class="principle-card__title">For Everyone</h3>
+                        <p class="principle-card__description">Accessibility isn't optional. We design for humans with different abilities, not just the majority.</p>
+                    </article>
+                    <article class="principle-card">
+                        <div class="principle-card__number">04</div>
+                        <h3 class="principle-card__title">Fast & Smooth</h3>
+                        <p class="principle-card__description">Speed matters. Every animation, every interaction is optimized. Good design shouldn't make you wait.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process">
+            <div class="process__container">
+                <h2 class="section-title section-title--center">Our Process</h2>
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__step">01</div>
+                        <div class="timeline__content">
+                            <h3>Discover</h3>
+                            <p>Understand the user, the problem, and the opportunity. Research guides everything.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__step">02</div>
+                        <div class="timeline__content">
+                            <h3>Wireframe</h3>
+                            <p>Create mobile-first grayscale structure to establish layout and hierarchy.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__step">03</div>
+                        <div class="timeline__content">
+                            <h3>Structure</h3>
+                            <p>Build semantic HTML with proper hierarchy and accessibility in mind.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__step">04</div>
+                        <div class="timeline__content">
+                            <h3>Style</h3>
+                            <p>Implement CSS Grid, Flexbox, and visual system across all breakpoints.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__step">05</div>
+                        <div class="timeline__content">
+                            <h3>Interact</h3>
+                            <p>Add JavaScript functionality for smooth interactions and enhanced UX.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__step">06</div>
+                        <div class="timeline__content">
+                            <h3>Audit</h3>
+                            <p>Check accessibility, responsiveness, performance, and browser compatibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact__container">
+                <div class="contact__content">
+                    <h2 class="section-title">Ready to create
+something great?</h2>
+                    <p class="contact__description">Tell us about your project. What's your vision? We'd love to hear it and make it real.</p>
+                </div>
+                
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="projectType" class="form-label">Project Type</label>
+                        <select id="projectType" name="projectType" class="form-input" required>
+                            <option value="">Select a project type</option>
+                            <option value="responsive-web">Responsive Web Development</option>
+                            <option value="ui-ux">UI/UX Design</option>
+                            <option value="frontend">Frontend Engineering</option>
+                            <option value="interactive">Interactive Experience</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <span class="form-error" id="projectTypeError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-input form-textarea" rows="5" required></textarea>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--large">Send & Let's Talk</button>
+                    <p class="form-success" id="formSuccess" style="display: none;">
+                        ✅ Thanks! We got your message. Expect a reply within 24 hours.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">ARCHORA</h3>
+                    <p class="footer__tagline">Building beautiful, human-centered digital experiences.</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__heading">Navigation</h4>
+                    <nav class="footer__nav">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__heading">Follow Us</h4>
+                    <div class="footer__social">
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>Made by humans who care about good design</p>
+                <p class="footer__copyright">© 2026 ARCHORA. All rights reserved. • Built with HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
